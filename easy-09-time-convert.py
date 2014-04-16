@@ -8,6 +8,10 @@ def TimeConvert(num):
     return "{hour}:{minute}".format(hour=num / 60, minute=num % 60)
 
 
+def TimeConvert2(num):
+    return str(num / 60) + ":" + str(num % 60)
+
+
 # keep this function call here
 # to see how to enter arguments in Python scroll down
 print TimeConvert(raw_input())
